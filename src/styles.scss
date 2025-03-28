@@ -6,6 +6,14 @@
   --primary-color: #ae7aff;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "JetBrains Mono", sans-serif;
   background: var(--dark-color);
